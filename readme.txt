@@ -51,6 +51,7 @@ You can...
     Company members cannot be invited.
 
 5. Company Members
+    Get all company members
 
 ============================================================================================================================
 
