@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  api:
+   build:
+    context: .
+    target: api
+   image: backend_node:api
+   command: ["node","api.js"]
+   ports: 
+     - 8080:3000
+   depends_on:
+     - "database"
+   volumes:
+     - '..\backend_node:/app'
+   networks:
+     - redeapi
+
+  database:
+   build:
+    context: .
+    target: database
+   image: backend_node:database
+   networks:
+     - redeapi
+   stdin_open: true
+   tty: true
+
+networks:
+    redeapi:
+volumes:
+    dbdata:
