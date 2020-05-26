@@ -1,5 +1,10 @@
 ============================================================================================================================
 
+Contact:                    Linkedin:
+gui.far@outlook.com         https://www.linkedin.com/in/guilherme-faria-06b1321aa/
+
+============================================================================================================================
+
 Instructions:
 
 Download and simply run...
@@ -18,6 +23,8 @@ express:        Backend Framework
 jsonwebtoken:   Generate tokens
 mysql2:         Database
 sequelize:      ORM (Manages the backend integration with the database)
+
+Docker:         This project run with 2 containers
 
 ============================================================================================================================
 
